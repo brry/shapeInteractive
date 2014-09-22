@@ -6,4 +6,5 @@ GIS-like interaction with shapefiles: zoom in  ESRI shapefile plots, show or cha
 to install on your computer, use:
 
 if(!require(devtools)) {install.packages("devtools"); require(devtools)}
+
 install_github("BerryBoessenkool/shapeInteractive")
