@@ -1,0 +1,11 @@
+Package: shapeInteractive
+Type: Package
+Title: interact with shapefiles
+Version: 0.1
+Date: 2014-09-22
+Suggests: maptools, berryFunctions
+Imports: spatstat
+Author: Berry Boessenkool
+Maintainer: Berry Boessenkool <berry-b@gmx.de>
+Description: GIS-like interaction with shapefiles: zoom in  ESRI shapefile plots, show or change attributes by clicking on them in a plot. Currently only works for Line-shapefiles. Further development from my side is not planned in 2014, as I want to focus on my (soon to be) CRAN package extremeStat.
+License: GPL-3
