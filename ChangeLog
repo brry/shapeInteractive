@@ -1,0 +1,39 @@
+
+This Log of changes in my package shapeInteractive contains two sections:
+1. future development - a list of things I want to change
+2. development over time - a log of the changes I already made
+
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+1. shapeInteractive - future development
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+- changeAttribute, showAttribute, partly also shapeZoom:
+# include require2(maptools), require2(spatstat) in examples 
+# read shapefiles not with maptools functions, but with package rgdal
+# enable all shapefile types
+# understand id_col
+# coltochange with number
+# CL-TK GU-Interface allowing to click on another segment, and the info in the interface is updated automatically. http://www.sciviews.org/_rgui/tcltk/
+# catch warning message in as.psp.SpatialLinesDataFrame
+
+- shapeZoom: 
+# set steps higher and Time lower 
+# linear zooming properties
+
+
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+2. shapeInteractive - development over time
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+
+Version 0.1 (2014-09-22)
+initial build on github, with the following functions taken from berryFunctions:
+changeAttribute
+shapeZoom
+showAttribute
